@@ -3,10 +3,11 @@
 #include <time.h>
 
 /**
- * main - Positive anything is better than negative everything
+ * main - Prints random numbers and states positive, negative or zero
  *
  * Return: 0 (Success)
  */
+
 int main(void)
 
 {
@@ -19,6 +20,8 @@ int main(void)
 		printf("%d is positive\n", n);
 	else if (n == 0)
 		printf("%d is zero\n", n);
+	else
+		printf("%d is negative\n", n);
 	
 	return(0);
 }
