@@ -5,7 +5,7 @@
  * seperated by commma, followed by space, printed in order
  * @n: the number to start counting from
  */
-void print_to_98(int n);
+void print_to_98(int n)
 {
 	if (n > 98)
 	{

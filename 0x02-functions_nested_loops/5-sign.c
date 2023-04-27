@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_sign - checks if number is greater or less than zero
  * and prints the sign of a number
