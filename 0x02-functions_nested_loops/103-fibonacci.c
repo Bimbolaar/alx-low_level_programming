@@ -19,7 +19,7 @@ int main(void)
 
 					if ((fibosum % 2) == 0)
 						total_sum += fibosum;
-					
+
 					fibo1 = fibo2;
 					fibo2 = fibosum;
 	}
