@@ -9,7 +9,7 @@
 int main(void)
 {
 	int count;
-	unsigned long fibo1 = 0, fibo 1, sum;
+	unsigned long fibo1 = 0, fibo2 = 1, sum;
 	unsigned long fibo1_half1, fibo1_half2, fibo2_half1, fibo2_half2;
 	unsigned long half1, half2;
 
@@ -31,13 +31,13 @@ int main(void)
 	{
 		half1 = fibo1_half1 + fibo2_half1;
 		half2 = fibo1_half2 + fibo2_half2;
-		if (fibo1_half2 + fibo2Ohalf2 > 9999999999)
+		if (fibo1_half2 + fibo2_half2 > 9999999999)
 		{
 			half1 += 1;
 			half2 %= 10000000000;
 		}
 
-		printf("%lu%lu", half1, half2)
+		printf("%lu%lu", half1, half2);
 		if (count != 98)
 			printf(",");
 
