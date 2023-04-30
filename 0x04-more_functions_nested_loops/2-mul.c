@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * int mul(int a, int b) - multiplies two integers
+ * mul - multiplies two integers
  * @a: first integer
  * @b: second integer
  * Return: product of a and b
