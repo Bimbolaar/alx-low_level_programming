@@ -5,7 +5,7 @@
  * diagonal should end with a \n
  * if n is 0 or less, function should only print a \n
  */
-void print_diagonal(int n);
+void print_diagonal(int n)
 {
 	int i, j;
 
