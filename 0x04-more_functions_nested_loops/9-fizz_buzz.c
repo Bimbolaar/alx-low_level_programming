@@ -3,7 +3,6 @@
 
 /**
  * main - entry point
- * 
  * Function: prints numbers 1 to 100
  * Fizz for multiples of 3, Buzz for multiples of 5
  * and FizzBuzz for multiples of both
