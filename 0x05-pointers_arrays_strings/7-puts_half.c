@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * puts_half - prints half of a string
  * @str: character to check
@@ -9,10 +10,10 @@ void puts_half(char *str)
 {
 	int string = 0, n;
 
-	while (str[string] != '\0\)
+	while (str[string] != '\0')
 		string++;
 	if (string + 1 % 2 != '0')
-		n = (string -1) / 2;
+		n = (string - 1) / 2;
 	else
 		n = (string / 2);
 	n++;
