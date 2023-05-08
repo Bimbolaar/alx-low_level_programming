@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _memset - function that fills @n bytes of memory 
+ * _memset - function that fills @n bytes of memory
  * pointed by @s with the constant byte @b
  *
  * @n: bytes of the memory area pointed to by @s
@@ -12,12 +12,12 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i = 0;
-
+	unsigned int i;
+	
 	for (i = 0; i < n; i++)
 	{
-		s[i] = b;
-		i++;
+	       *(s + i)	= b;
+
 	}
 
 	return (s);
