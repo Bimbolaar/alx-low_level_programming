@@ -23,7 +23,7 @@ int checker(int a, int b)
  * Return: 1 if input integer is a prime number, otherwise return o
  */
 
-int is_prime_number(int n);
+int is_prime_number(int n)
 {
 	if (n == 2)
 		return (1);
