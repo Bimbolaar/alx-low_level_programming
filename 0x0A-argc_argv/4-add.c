@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - program that adds positive numbers
  * @argc: argument count
@@ -19,7 +20,7 @@ int main(int argc, char **argv)
 
 	for (i = 1; argv[i]; i++)
 	{
-		n = strtol(argv[i].\, &flag, 10);
+		n = strtol(argv[i], &flag, 10);
 		if (*flag)
 		{
 			printf("Error\n");
@@ -29,8 +30,8 @@ int main(int argc, char **argv)
 		{
 			sum += n;
 		}
+	}
 		printf("%d\n", sum);
 
 		return (0);
-	}
-
+}
