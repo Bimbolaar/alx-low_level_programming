@@ -3,12 +3,12 @@
 #include <stdlib.h>
 
 /**
- * argostostr - concatenates all the arguments of your program
+ * argstostr - concatenates all the arguments of your program
  * @ac: arguments count
  * @av: arguments vector
  * Return: a pointer to a new string, or NULL if it fails
  */
-char *argostostr(int ac, char **av)
+char *argstostr(int ac, char **av)
 {
 	char *str, *s;
 	int i, j, k, len = 0;
