@@ -29,6 +29,7 @@ void print_all(const char * const format, ...)
 				break;
 			case 'f':
 				printf("%f", va_arg(valist, double));
+				flag = 0;
 				break;
 			case 's':
 				str = va_arg(valist, char*);
@@ -41,8 +42,9 @@ void print_all(const char * const format, ...)
 				flag = 1;
 				break;
 		}
-		if (format[1 + 1] != '\0' && flag == 0)
+		if (format[i + 1] != '\0' && flag == 0)
 			printf(", ");
+		i++;
 	}
 	printf("\n");
 	va_end(valist);
